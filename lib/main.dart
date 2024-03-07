@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
             ),
             OutlinedButton(
               style: ButtonStyle(
-                foregroundColor: MaterialStateProperty.all(Colors.red),
+                backgroundColor: MaterialStateProperty.all(Colors.black),
               ),
 
               onPressed: null,
