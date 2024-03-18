@@ -29,11 +29,16 @@ class _QuizState extends State<Quiz> {
     return MaterialApp(
       home: Scaffold(
         body: Container(
-          decoration: const BoxDecoration(
+          decoration:
+          const BoxDecoration(
               gradient: LinearGradient(colors: [
             Color.fromARGB(255, 87, 14, 72),
             Color.fromARGB(255, 128, 0, 111),
-          ])),
+          ],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight
+              )
+          ),
           child: screenWidget,
         ),
       ),
